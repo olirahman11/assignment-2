@@ -250,6 +250,37 @@ figure{
  
 }
 
+/* play instantly section start */
+.play-instantly-title{
+  font-size: 48px;
+  color: #0B0223;
+  font-weight: 700;
+
+}
+
+.play-instantly-container{
+  display: flex;
+  justify-content: space-between;
+}
+.play-instantly-contant{
+  text-align: right;
+  margin: auto;
+
+}
+.play-instantly-description{
+  color: #534C64;
+  font-size: 18px;
+}
+.position{
+  position: relative;
+  bottom: 380px;
+  right: 150px;
+}
+.play-instantly-images img{
+  display: block;
+  margin-right: 200px;
+  margin-top: 120px;
+}
 
 
 
@@ -365,4 +396,22 @@ figure{
   .online-game-images {
     flex-direction: column;
     margin-left: 5% ;
+ }
+
+ /* play instantly responsive */
+ @media screen and (max-width: 576px) {
+  .play-instantly-container{
+    flex-direction: column;
+  }
+  .play-instantly-contant{
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    width: 375px;
+
+  }
+  
+  .play-instantly-images{
+    margin: 0px auto;
+  }
  }
