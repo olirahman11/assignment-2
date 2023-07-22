@@ -283,6 +283,36 @@ figure{
 }
 
 
+/* play online section start */
+
+.play-online-container{
+  display: flex;
+  justify-content: space-between;
+}
+.play-online-contant{
+  text-align: left;
+  margin: auto;
+  margin-top: 200px;
+  margin-right: 100px;
+}
+.play-online-images img{
+  display: block;
+  margin-left: 240px;
+}
+.position-1{
+  position: relative;
+  left: 540px;
+  bottom: 260px;
+}
+.play-online-title{
+  font-size: 48px;
+  color: #0B0223;
+}
+.play-online-description{
+  font-size: 20px;
+  color: #534C64;
+}
+
 
 
 /* banner resposinve */
@@ -397,6 +427,7 @@ figure{
     flex-direction: column;
     margin-left: 5% ;
  }
+}
 
  /* play instantly responsive */
  @media screen and (max-width: 576px) {
