@@ -86,8 +86,8 @@ nav  img{
 .banner-contant{
   margin-top: 150px;
   margin-left: 240px;
- 
- background-repeat: no-repeat ;
+  text-align: left;
+ background-repeat: no-repeat ;s
 
 }
 .banner-title-1{
@@ -407,6 +407,48 @@ ul li{
   color:#F948B2;
   cursor: pointer;
 
+}
+
+/* footer section  */
+.footer-container{
+  background: #0B0223;
+  width: 1920px;
+  height: 450px;
+  color: #FFF ;
+}
+.footer-texts{
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-title{
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-title img{
+  height: 50px;
+  position: relative;
+  top: 20px;
+  margin-right: 20px;
+}
+.footer-policy{
+  display: flex;
+  gap: 60px;
+  font-size: 1rem;
+  justify-content: center;
+}
+.footer-copyright-pa{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 80px;
 }
 
 /* banner resposinve */
