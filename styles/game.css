@@ -567,3 +567,16 @@ ul li{
   }
   
 }
+
+/* game catagory  */
+@media screen and (max-width:576px) {
+  .box-container{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px;
+    gap:30px;
+}
+.box-2{
+  position: static;
+  margin: 0;
+}
+}
