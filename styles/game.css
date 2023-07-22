@@ -202,13 +202,17 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 figure{
   align-items: center;
   margin: 50px;
+   opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
 }
-.image-box{
+
+.online-game-images {
   display: flex;
-  flex-direction: column;
-}
-.online-game-images img{
-  /* margin-right: 0px; */
 }
 .online-game-contant{
   text-align: center;
@@ -240,6 +244,12 @@ figure{
   font-size: 20px;
   font-weight: 500;
 }
+.image-box img:hover{
+ opacity: 0.3;
+ 
+ 
+}
+
 
 
 
@@ -350,3 +360,9 @@ figure{
   }
  }
 
+ /* online game responsive  */
+ @media screen and (max-width: 576px) {
+  .online-game-images {
+    flex-direction: column;
+    margin-left: 5% ;
+ }
